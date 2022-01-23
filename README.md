@@ -14,3 +14,5 @@ Additional functions are available in text form:
 If there is no database, it must be created with the command "CREATE DATABASE test;" in phpMyAdmin and create a table using the command "CREATE TABLE myArtTable (id int(11) NOT NULL auto_increment, text text NOT NULL, description text NOT NULL, keywords text NOT NULL, PRIMARY KEY (id)) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=cp1251;", which can be prompted with the CREATE and RUN buttons, as shown in the following illustration:
 
 ![4](https://user-images.githubusercontent.com/10297748/150674232-453d7455-8435-4b05-84b6-3c58751674c0.png)
+
+Summary. This program allows you to check the connection to the MySQL database from the Lazarus compiler. Indispensable for eliminating network wires. The program has been tested under Windows 11, XAMPP v.3.3.0 (10.4.22-MariaDB) and Lazarus 2.0.10.
