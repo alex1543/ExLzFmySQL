@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, mysql50conn, SQLDB, DB, Forms, Controls, Graphics, Dialogs,
-  StdCtrls, Grids, ExtCtrls, Iphttpbroker, Ipfilebroker;
+  StdCtrls, Grids, ExtCtrls;
 
 type
 
@@ -77,7 +77,7 @@ begin
   try
     SQLTransaction1.Active:=true;
   except
-    ShowMessage(' Не могу создать транзакцию');
+    ShowMessage('Can''t create transaction.');
   exit;
   end;
   try
@@ -111,7 +111,7 @@ begin
   until SQLQuery1.EOF;
 
   except
-    ShowMessage(' Ошибка при выполнении SQL запроса.');
+    ShowMessage('Error while executing SQL query.');
   exit;
   end;
 end;
@@ -129,7 +129,7 @@ begin
   try
     SQLTransaction1.Active:=true;
   except
-    ShowMessage(' Не могу создать транзакцию');
+    ShowMessage('Can''t create transaction.');
   exit;
   end;
   try
@@ -139,7 +139,7 @@ begin
     Button1.Click;
 
   except
-    ShowMessage(' Ошибка при выполнении SQL запроса.');
+    ShowMessage('Error while executing SQL query.');
   exit;
   end;
 
@@ -157,7 +157,7 @@ begin
     try
       SQLTransaction1.Active:=true;
     except
-      ShowMessage(' Не могу создать транзакцию');
+      ShowMessage('Can''t create transaction.');
     exit;
     end;
     try
@@ -165,10 +165,10 @@ begin
       SQLQuery1.SQL.Add(Memo1.Lines.Text);
       SQLQuery1.ExecSQL;
     except
-      ShowMessage(' Ошибка при выполнении SQL запроса.');
+      ShowMessage('Error while executing SQL query.');
     exit;
     end;
-    ShowMessage ('Запрос успешно выполнен: '+Memo1.Lines.Text);
+    ShowMessage ('Request completed successfully: '+Memo1.Lines.Text);
 
 end;
 
@@ -204,7 +204,7 @@ end;
 try
   SQLTransaction1.Active:=true;
 except
-  ShowMessage(' Не могу создать транзакцию');
+  ShowMessage('Can''t create transaction.');
 exit;
 end;
 try
@@ -227,7 +227,7 @@ repeat
 until SQLQuery1.EOF;
 
 except
-  ShowMessage(' Ошибка при выполнении SQL запроса.');
+  ShowMessage('Error while executing SQL query.');
 exit;
 end;
 end;
