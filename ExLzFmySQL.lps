@@ -8,7 +8,7 @@
       <Unit0>
         <Filename Value="ExLzFmySQL.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="1"/>
         <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -28,44 +28,39 @@
       <Unit2>
         <Filename Value="..\..\lcl\grids.pas"/>
         <UnitName Value="Grids"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="11009"/>
         <CursorPos Y="11014"/>
         <UsageCount Value="14"/>
-        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\..\components\lazutils\dynamicarray.pas"/>
         <UnitName Value="DynamicArray"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="57"/>
         <CursorPos Y="64"/>
         <UsageCount Value="14"/>
-        <Loaded Value="True"/>
       </Unit3>
       <Unit4>
         <Filename Value="..\..\lcl\include\wincontrol.inc"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="7429"/>
         <CursorPos Y="7436"/>
         <UsageCount Value="14"/>
-        <Loaded Value="True"/>
       </Unit4>
       <Unit5>
         <Filename Value="..\..\fpc\3.2.0\source\rtl\objpas\fgl.pp"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="923"/>
         <CursorPos Y="930"/>
         <UsageCount Value="14"/>
-        <Loaded Value="True"/>
       </Unit5>
       <Unit6>
         <Filename Value="..\..\lcl\include\control.inc"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="3939"/>
         <CursorPos Y="3945"/>
         <UsageCount Value="12"/>
-        <Loaded Value="True"/>
       </Unit6>
     </Units>
     <JumpHistory Count="29" HistoryIndex="28">
